@@ -46,7 +46,6 @@ $(function(){
     // 登陆 监听
     $('#form_login').on('submit',function(e){
         e.preventDefault();
-        console.log(111);
         $.ajax({
             type:'POST',
             url:'/api/login',
